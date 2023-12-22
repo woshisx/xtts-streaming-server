@@ -114,7 +114,7 @@ if __name__ == "__main__":
     resp.raise_for_status()
     print("Starting the demo...")
     demo.launch(
-        share=False,
+        share=True,
         debug=False,
         server_port=3009,
         server_name="0.0.0.0",
